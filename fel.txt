@@ -1,0 +1,15 @@
+Problem med Search.php
+
+Invalid argument supplied for foreach() avhjälptes med (array) innan variabeln i foreach loopen
+
+cannot send session cache limiter - headers already sent på search.php, kommenterade bort Session
+start och det löste problemen.
+
+Problem med validering - Float : center fanns inte så löste detta med margin-left: auto;
+    margin-right: auto
+
+	& did not start a character reference. (& probably should have been escaped as &amp .)
+	ändrade länken till stylesheeten.
+	
+	En rad olika problem med lightbox.css där DXImageTransform inte gillades, den verkade dock ha mindre betydelse.
+	Kommenterade bort alla rader där denna ingick och sidan validera samt att pluginet även fungerade korrekt.
